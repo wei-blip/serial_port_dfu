@@ -61,19 +61,19 @@
 					};
 					boot_partitions: partition@0 {
 						label = "mcuboot";
-						reg = < 0x0 0xc000 >;
+						reg = < 0x0 0xa800 >;
 					};
-					slot0_partition: partition@c000 {
+					slot0_partition: partition@a800 {
 						label = "image-0";
-						reg = < 0xc000 0x5c000 >;
+						reg = < 0xa800 0x37000 >;
 					};
-					slot1_partition: partition@68000 {
+					slot1_partition: partition@41800 {
 						label = "image-1";
-						reg = < 0x680000 0x5c000 >;
+						reg = < 0x41800 0x37000 >;
 					};
-					scratch_partition: partition@c4000 {
+					scratch_partition: partition@6e800 {
 						label = "image-scratch";
-						reg = < 0xc4000 0x4000 >;
+						reg = < 0x6e800 0x7000 >;
 					};
 				};
 			};

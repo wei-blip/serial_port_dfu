@@ -989,19 +989,19 @@ arduino_serial: &usart2 {};
         compatible = "fixed-partitions";
             boot_partitions: partition@0 {
                 label = "mcuboot";
-                reg = <0x00000000 0xc000>;
+                reg = <0x00000000 0xa800>;
             };
-            slot0_partition: partition@c000 {
+            slot0_partition: partition@a800 {
                 label = "image-0";
-                reg = <0x0000C000 0x5c000>;
+                reg = <0x0000a800 0x37000>;
             };
-            slot1_partition: partition@68000 {
+            slot1_partition: partition@41800 {
                 label = "image-1";
-                reg = <0x000680000 0x5c000>;
+                reg = <0x00041800 0x37000>;
             };
-            scratch_partition: partition@c4000 {
+            scratch_partition: partition@6e800 {
                 label = "image-scratch";
-                reg = <0x000c4000 0x4000>;
+                reg = <0x0006e800 0x7000>;
             };
     };
 };

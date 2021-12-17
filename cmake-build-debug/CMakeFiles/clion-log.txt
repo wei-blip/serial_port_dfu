@@ -12,25 +12,14 @@ Including boilerplate (Freestanding): /home/rts/zephyr-2.7.0/zephyr/cmake/app/bo
 -- Found BOARD.dts: /home/rts/zephyr-2.7.0/zephyr/boards/arm/nucleo_l152re/nucleo_l152re.dts
 -- Found devicetree overlay: /home/rts/tmp/serial_port_dfu/boards/nucleo_l152re.overlay
 nucleo_l152re.dts.pre.tmp:410.28-425.5: Warning (simple_bus_reg): /soc/timers@40000C00: simple-bus unit address format error, expected "40000c00"
-unit address and first address in 'reg' (0x680000) don't match for /soc/flash-controller@40023c00/flash@8000000/partitions/partition@68000
 -- Generated zephyr.dts: /home/rts/tmp/serial_port_dfu/cmake-build-debug/zephyr/zephyr.dts
 -- Generated devicetree_unfixed.h: /home/rts/tmp/serial_port_dfu/cmake-build-debug/zephyr/include/generated/devicetree_unfixed.h
 -- Generated device_extern.h: /home/rts/tmp/serial_port_dfu/cmake-build-debug/zephyr/include/generated/device_extern.h
 -- Including generated dts.cmake file: /home/rts/tmp/serial_port_dfu/cmake-build-debug/zephyr/dts.cmake
-
-warning: FPU (defined at soc/arm/nxp_imx/mcimx6x_m4/Kconfig.defconfig.mcimx6x_m4:11,
-arch/Kconfig:845) was assigned the value 'y' but got the value 'n'. Check these unsatisfied
-dependencies: ((SOC_MCIMX6X_M4 && SOC_SERIES_IMX_6X_M4) || CPU_HAS_FPU) (=n). See
-http://docs.zephyrproject.org/latest/reference/kconfig/CONFIG_FPU.html and/or look up FPU in the
-menuconfig/guiconfig interface. The Application Development Primer, Setting Configuration Values,
-and Kconfig - Tips and Best Practices sections of the manual might be helpful too.
-
 Parsing /home/rts/zephyr-2.7.0/zephyr/Kconfig
-Loaded configuration '/home/rts/zephyr-2.7.0/zephyr/boards/arm/nucleo_l152re/nucleo_l152re_defconfig'
-Merged configuration 'prj.Debug.conf'
-Merged configuration 'prj.conf'
-Configuration saved to '/home/rts/tmp/serial_port_dfu/cmake-build-debug/zephyr/.config'
-Kconfig header saved to '/home/rts/tmp/serial_port_dfu/cmake-build-debug/zephyr/include/generated/autoconf.h'
+Loaded configuration '/home/rts/tmp/serial_port_dfu/cmake-build-debug/zephyr/.config'
+No change to configuration in '/home/rts/tmp/serial_port_dfu/cmake-build-debug/zephyr/.config'
+No change to Kconfig header in '/home/rts/tmp/serial_port_dfu/cmake-build-debug/zephyr/include/generated/autoconf.h'
 /opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb: error while loading shared libraries: libpython3.8.so.1.0: cannot open shared object file: No such file or directory
 -- The C compiler identification is GNU 10.3.0
 -- The CXX compiler identification is GNU 10.3.0

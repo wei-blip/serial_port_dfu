@@ -59,10 +59,10 @@ extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_flash_controller_4002
 extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_flash_controller_40023c00_S_flash_8000000); /* dts_ord_51 */
 extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_flash_controller_40023c00_S_flash_8000000_S_partitions); /* dts_ord_52 */
 extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_flash_controller_40023c00_S_flash_8000000_S_partitions_S_partition_0); /* dts_ord_53 */
-extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_flash_controller_40023c00_S_flash_8000000_S_partitions_S_partition_c000); /* dts_ord_54 */
-extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_flash_controller_40023c00_S_flash_8000000_S_partitions_S_partition_68000); /* dts_ord_55 */
-extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_flash_controller_40023c00_S_flash_8000000_S_partitions_S_partition_7f800); /* dts_ord_56 */
-extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_flash_controller_40023c00_S_flash_8000000_S_partitions_S_partition_c4000); /* dts_ord_57 */
+extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_flash_controller_40023c00_S_flash_8000000_S_partitions_S_partition_a800); /* dts_ord_54 */
+extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_flash_controller_40023c00_S_flash_8000000_S_partitions_S_partition_41800); /* dts_ord_55 */
+extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_flash_controller_40023c00_S_flash_8000000_S_partitions_S_partition_6e800); /* dts_ord_56 */
+extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_flash_controller_40023c00_S_flash_8000000_S_partitions_S_partition_7f800); /* dts_ord_57 */
 extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_pin_controller_40020000_S_adc_in10_pc0); /* dts_ord_58 */
 extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_pin_controller_40020000_S_adc_in11_pc1); /* dts_ord_59 */
 extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_pin_controller_40020000_S_adc_in12_pc2); /* dts_ord_60 */

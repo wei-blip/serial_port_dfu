@@ -266,6 +266,8 @@
 /home/rts/tmp/serial_port_dfu/cmake-build-debug/modules/tinycbor/CMakeFiles/edit_cache.dir
 /home/rts/tmp/serial_port_dfu/cmake-build-debug/modules/tinycrypt/CMakeFiles/rebuild_cache.dir
 /home/rts/tmp/serial_port_dfu/cmake-build-debug/modules/tinycrypt/CMakeFiles/edit_cache.dir
+/home/rts/tmp/serial_port_dfu/cmake-build-debug/modules/tinycrypt/lib/CMakeFiles/rebuild_cache.dir
+/home/rts/tmp/serial_port_dfu/cmake-build-debug/modules/tinycrypt/lib/CMakeFiles/edit_cache.dir
 /home/rts/tmp/serial_port_dfu/cmake-build-debug/modules/TraceRecorder/CMakeFiles/rebuild_cache.dir
 /home/rts/tmp/serial_port_dfu/cmake-build-debug/modules/TraceRecorder/CMakeFiles/edit_cache.dir
 /home/rts/tmp/serial_port_dfu/cmake-build-debug/modules/trusted-firmware-m/CMakeFiles/rebuild_cache.dir
