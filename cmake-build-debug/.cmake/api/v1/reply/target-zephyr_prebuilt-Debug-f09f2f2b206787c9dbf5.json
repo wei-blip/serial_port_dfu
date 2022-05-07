@@ -347,12 +347,12 @@
 			"id" : "app::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 4,
-			"id" : "syscall_list_h_target::@d36e55b69c1b90fb26b2"
-		},
-		{
 			"backtrace" : 3,
 			"id" : "zephyr::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "syscall_list_h_target::@d36e55b69c1b90fb26b2"
 		},
 		{
 			"backtrace" : 4,
@@ -372,11 +372,11 @@
 		},
 		{
 			"backtrace" : 3,
-			"id" : "isr_tables::@0b0b0cfd7a24e8ecfe11"
+			"id" : "arch__common::@0b0b0cfd7a24e8ecfe11"
 		},
 		{
 			"backtrace" : 3,
-			"id" : "arch__common::@0b0b0cfd7a24e8ecfe11"
+			"id" : "isr_tables::@0b0b0cfd7a24e8ecfe11"
 		},
 		{
 			"backtrace" : 3,

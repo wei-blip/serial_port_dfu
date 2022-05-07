@@ -33,7 +33,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 102,
+				"line" : 40,
 				"parent" : 2
 			},
 			{
@@ -49,13 +49,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 649,
+				"line" : 99,
 				"parent" : 5
 			}
 		]
 	},
-	"id" : "zephyr_property_target::@6890427a1f51a3e7e1df",
-	"name" : "zephyr_property_target",
+	"id" : "runners_yaml_props_target::@6890427a1f51a3e7e1df",
+	"name" : "runners_yaml_props_target",
 	"paths" : 
 	{
 		"build" : ".",

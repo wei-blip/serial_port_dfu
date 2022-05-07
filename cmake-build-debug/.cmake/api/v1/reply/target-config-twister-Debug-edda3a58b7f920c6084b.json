@@ -11,7 +11,7 @@
 		],
 		"files" : 
 		[
-			"/home/rts/zephyr-2.7.0/zephyr/cmake/target_toolchain.cmake",
+			"/home/rts/zephyr-2.7.0/zephyr/cmake/kconfig.cmake",
 			"/home/rts/zephyr-2.7.0/zephyr/cmake/app/boilerplate.cmake",
 			"/home/rts/zephyr-2.7.0/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake",
 			"CMakeLists.txt"
@@ -34,7 +34,7 @@
 			{
 				"command" : 2,
 				"file" : 2,
-				"line" : 102,
+				"line" : 40,
 				"parent" : 2
 			},
 			{
@@ -50,7 +50,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 579,
+				"line" : 542,
 				"parent" : 5
 			},
 			{
@@ -60,18 +60,49 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 55,
+				"line" : 292,
 				"parent" : 7
 			}
 		]
 	},
-	"id" : "bintools::@6890427a1f51a3e7e1df",
-	"name" : "bintools",
+	"id" : "config-twister::@6890427a1f51a3e7e1df",
+	"name" : "config-twister",
 	"paths" : 
 	{
 		"build" : ".",
 		"source" : "."
 	},
-	"sources" : [],
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 8,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/config-twister",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/config-twister.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
 	"type" : "UTILITY"
 }
